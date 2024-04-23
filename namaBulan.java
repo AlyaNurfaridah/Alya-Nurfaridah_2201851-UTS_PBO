@@ -12,7 +12,7 @@ public class namaBulan {
         // Menutup scanner setelah selesai digunakan
         scanner.close();
         
-        // Menampilkan nama bulan dalam bahasa Indonesia sesuai dengan nomor bulan yang dimasukkan pengguna
+        // Menampilkan nama bulan sesuai dengan nomor bulan yang dimasukkan pengguna
         switch (nomorBulan) {
             case 1:
                 System.out.println("Januari");
@@ -51,7 +51,7 @@ public class namaBulan {
                 System.out.println("Desember");
                 break;
             default:
-                System.out.println("Nomor bulan tidak valid.");
+                System.out.println("Harap Masukkan nomor 1 - 12");
         }
     }
 }
